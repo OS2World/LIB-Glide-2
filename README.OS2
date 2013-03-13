@@ -1,0 +1,86 @@
+Glide/2 2.46b1
+
+COPYRIGHT 3DFX INTERACTIVE, INC. 1999, ALL RIGHTS RESERVED
+
+OS/2 port written by Przemysˆaw Dobrowolski <dobrawka@asua.org.pl>
+
+This is first public beta. I have not to much time (exams and work) and 
+I searching for peoples which would like update my work.
+
+Cards tested with Glide/2:
+- Diamond Monster 3D
+- 3DFX Voodoo I
+
+INSTALATION
+===========
+You must have XF86SUP.SYS. Put into CONFIG.SYS line:
+
+DEVICE=X:\Path_where_you_copy_xf86sup\XF86SUP.SYS
+
+
+UPDATE FOR LICENCE:
+===================
+letter from Brian P. Bruning 
+
+Thanks for the update and questions.  It's exciting to see support for Glide
+on other platforms!  We have opensourced Glide and lifted restrictions that
+were previously there.  Check out http://linux.3dfx.com/ for complete
+details.  You may distribute our glide samples and you won't need to rename
+Glide.dll.  But please credit 3dfx as the owners/creators of Glide.
+
+Brian P. Bruning
+3dfx Interactive, Director of Developer Relations
+
+Immersion 2000 - The New Generation - 5th Annual 3dfx Technology Conference
+Join your fellow 3D visionaries on March 9th, 1pm - 6pm, to learn about the
+latest graphic technologies from industry leader 3dfx.  The new generation
+of texture shading and blending, higher order surfaces, transform and light
+technologies, D3D and OpenGL optimizations, and advanced special effects are
+covered in this exclusive NDA event.  Please visit www-dev.3dfx.com or
+contact devprogram@3dfx.com for more information on pricing and agenda.
+
+-----Original Message-----
+From: Lech Wiktor Piotrowski [mailto:lewhoo@teamos2.org.pl] 
+Sent: Tuesday, January 18, 2000 2:08 PM
+To: INFO@3DFX.COM
+Subject: GLIDE License
+
+
+Dear Sir, 
+
+A programmer who is a member of TeamOS/2 Poland did a port od your glide.dll
+to 
+OS/2. But we have some question concerning your licence:
+
+1. Does glide.dll need to be renamed, as GLIDE is your trademark? And do we
+have to 
+use diffrent name in our documents when talking about our port of glide.dll?
+
+2. Is it vorbidden to distribute your glide samples with a port of glide?
+Distributing it with 
+your samples would vastly improve our testing capabilities.
+
+Thankyou in advance,
+Lech Wiktor Piotrowski
+TeamOS/2 Poland
+============================================================================
+
+LIMITATION:
+- Source code are compatible only with EMX.
+- No program to changing gamma correction - can you write? ;-)
+
+DEDICATION:
+I would like to dedicate this work to my mother - Malgorzata, who died three 
+months ago.
+
+TODO:
+Create port of Glide Mesa driver.
+
+THANX:
+- to Lech Wiktor Piotrowski for testing and his 'English' ;-)
+
+
+                                                     Przemek/2
+                                                 [2000-01-26 16:25]
+
+EOF
